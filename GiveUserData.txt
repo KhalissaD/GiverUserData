@@ -1,0 +1,23 @@
+GiveUserData
+
+userdata[5]: array of data arrays
+first : integer
+
+
+client[] <- ["prenomClient1", "nomClient1", client1@gmail.com"]
+	["prenomClient2", "nomClient2", client2@gmail.com"]
+	["prenomClient3", "nomClient3", client3@gmail.com"]
+	["prenomClient4", "nomClient4", client4@gmail.com"]
+	["prenomClient5", "nomClient5", client5@gmail.com"]
+
+client[0] <- ["prenomClient1", "nomClient1", client1@gmail.com"]
+client[1] <- ["prenomClient2", "nomClient2", client2@gmail.com"]
+client[2] <- ["prenomClient3", "nomClient3", client3@gmail.com"]
+client[3] <- ["prenomClient4", "nomClient4", client4@gmail.com"]
+client[4] <- ["prenomClient5", "nomClient5", client5@gmail.com"]
+
+for first from 0 to 4
+	write(client [first][0])
+	write(client [first][1])
+	write(client [first][2])
+endfor
